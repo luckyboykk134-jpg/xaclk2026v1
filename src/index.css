@@ -113,6 +113,8 @@ code {
 @tailwind components;
 @tailwind utilities;
 
+<title>Hệ Thống Đối Chiếu Xác Linh Kiện</title>
+
 /* 1. Ép toàn bộ các thẻ bọc ngoài cùng không được giới hạn độ rộng và không được giấu phần thừa */
 html, body, #root, .min-h-screen {
     width: 100% !important;
