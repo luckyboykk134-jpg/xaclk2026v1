@@ -113,7 +113,6 @@ code {
 @tailwind components;
 @tailwind utilities;
 
-/* Ép tất cả các khối bọc đang bị giới hạn độ rộng bung hết ra 100% */
 div[class*="max-w-"], 
 .max-w-5xl, 
 .max-w-6xl, 

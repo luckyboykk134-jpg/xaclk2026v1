@@ -186,3 +186,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+div[class*="max-w-"], 
+.max-w-5xl, 
+.max-w-6xl, 
+.max-w-screen-xl,
+.container {
+    max-width: 100% !important;
+    width: 100% !important;
+}
