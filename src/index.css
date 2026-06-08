@@ -122,11 +122,3 @@ html, body, #root, .min-h-screen {
     padding: 0 !important;
     background-color: #f8fafc !important; /* Đảm bảo nền sáng toàn trang, không bị đen */
 }
-
-body {
-    zoom: 80%; /* Ép trình duyệt tự động thu nhỏ toàn bộ ứng dụng còn 80% */
-    
-    /* Đoạn code dưới đây để dự phòng cho các trình duyệt cũ hoặc Firefox */
-    -moz-transform: scale(0.8);
-    -moz-transform-origin: top center;
-}

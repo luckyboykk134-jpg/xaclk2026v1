@@ -1354,7 +1354,7 @@ export default function App() {
   }, [quickNoXacRow, quickNoXacReason, showToast, showOOWOverrideInput, oowOverridePassword, isOOWOverrideActive, oowScanInput, handleOOWOverrideSubmit, handleOOWScan]);
 
   return (
-    <div className="h-screen flex flex-col bg-[#f8f9fa] text-base font-sans text-gray-800 overflow-hidden">
+    <div className="h-screen flex flex-col bg-[#f8f9fa] text-base font-sans text-gray-800 overflow-hidden transform origin-top-left scale-[0.8] w-[125%] h-[125%]">
       
       {/* MÀN HÌNH CHỜ (LOADING OVERLAY) TOÀN MÀN HÌNH - ĐÃ TỐI ƯU GIAO DIỆN GỌN GÀNG NHẤT */}
       {(isLoadingData || isUploading) && (
