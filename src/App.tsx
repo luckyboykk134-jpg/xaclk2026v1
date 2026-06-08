@@ -1665,7 +1665,7 @@ export default function App() {
         </div>
       </header>
 
-      <main className="flex-1 flex flex-col p-4 gap-4 overflow-hidden w-full z-10">
+      <main className="flex-1 flex flex-col p-4 gap-4 overflow-hidden w-screen z-10">
         {/* THÔNG BÁO KHÓA HỆ THỐNG DO TRÙNG LẬP XUNG ĐỘT PHIÊN */}
         {hasConflictLock && (
           <div className="bg-amber-100 border-l-8 border-red-500 p-4 rounded-xl shadow-md flex items-center justify-between animate-pulse">
