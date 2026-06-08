@@ -112,3 +112,13 @@ code {
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Ép tất cả các khối bọc đang bị giới hạn độ rộng bung hết ra 100% */
+div[class*="max-w-"], 
+.max-w-5xl, 
+.max-w-6xl, 
+.max-w-screen-xl,
+.container {
+    max-width: 100% !important;
+    width: 100% !important;
+}
